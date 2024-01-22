@@ -1,9 +1,11 @@
 package model
 
-import model "movieexample.com/metadata/pkg"
+import (
+	"movieexample.com/metadata/pkg/model"
+)
 
 // MovieDetails includes movie metadata and its aggregated rating.
 type MovieDetails struct {
-	Rating *float64 `json:"rating,omitempty"`
+	Rating   *float64       `json:"rating,omitempty"`
 	Metadata model.Metadata `json:"metadata"`
 }

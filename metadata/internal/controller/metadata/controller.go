@@ -5,7 +5,7 @@ import (
 	"errors"
 
 	"movieexample.com/metadata/internal/repository"
-	model "movieexample.com/metadata/pkg"
+	"movieexample.com/metadata/pkg/model"
 )
 
 // ErrNotFound when cannot find record
