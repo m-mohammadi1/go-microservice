@@ -7,7 +7,7 @@ import (
 	metadatamodel "movieexample.com/metadata/pkg/model"
 	"movieexample.com/movie/internal/gateway"
 	"movieexample.com/movie/pkg/model"
-	ratingmodel "movieexample.com/rating/pkg"
+	ratingmodel "movieexample.com/rating/pkg/model"
 )
 
 // ErrNotFound not found error

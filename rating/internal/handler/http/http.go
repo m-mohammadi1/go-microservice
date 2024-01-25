@@ -8,7 +8,7 @@ import (
 	"strconv"
 
 	"movieexample.com/rating/internal/controller/rating"
-	model "movieexample.com/rating/pkg"
+	"movieexample.com/rating/pkg/model"
 )
 
 // Handler defines a rating http handler.

@@ -10,7 +10,7 @@ import (
 
 	"movieexample.com/movie/internal/gateway"
 	"movieexample.com/pkg/discovery"
-	model "movieexample.com/rating/pkg"
+	"movieexample.com/rating/pkg/model"
 )
 
 // Gateway defines a rating http gateway

@@ -6,7 +6,7 @@ import (
 	"movieexample.com/gen"
 	"movieexample.com/internal/grpcutil"
 	"movieexample.com/pkg/discovery"
-	model "movieexample.com/rating/pkg"
+	"movieexample.com/rating/pkg/model"
 )
 
 type Gateway struct {
